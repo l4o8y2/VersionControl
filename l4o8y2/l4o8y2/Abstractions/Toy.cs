@@ -6,12 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace l4o8y2.Entities
+namespace l4o8y2.Abstractions
 {
-    public class Ball : Label
+    class Toy:Label
     {
-        public Ball()
+        public Toy()
         {
             AutoSize = false;
             Width = 50;
@@ -33,4 +32,5 @@ namespace l4o8y2.Entities
             Left += 1;
         }
     }
+}
 }
