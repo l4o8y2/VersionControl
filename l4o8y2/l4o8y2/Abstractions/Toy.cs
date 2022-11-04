@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace l4o8y2.Abstractions
 {
-     class Toy:Label
+    public abstract class  Toy:Label
     {
         public Toy()
         {
