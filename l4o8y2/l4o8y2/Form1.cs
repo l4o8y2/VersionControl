@@ -62,5 +62,29 @@ namespace l4o8y2
                 return;
             button.BackColor = colorPicker.Color;
         }
+
+        private void btnSelectBall_Click(object sender, EventArgs e)
+        {
+            
+                Factory = new BallFactory
+                {
+                    BallColor = btnBallColor.BackColor
+                };
+            
+        }
+
+        private void btnSelectCar_Click(object sender, EventArgs e)
+        {
+            Factory = new CarFactory();
+        }
+        private void DisplayNext()
+        {
+            if (_nextToy != null)
+                Controls.Remove(_nextToy);
+            _nextToy = Factory.CreateNew();
+            _nextToy.Top = lblNext.Top + lblNext.Height + 20;
+            _nextToy.Left = lblNext.Left;
+            Controls.Add(_nextToy);
+        }
     }
 }

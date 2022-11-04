@@ -37,16 +37,17 @@ namespace l4o8y2
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(292, 13);
+            this.button1.Location = new System.Drawing.Point(40, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "CAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(292, 66);
+            this.button2.Location = new System.Drawing.Point(40, 55);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -56,7 +57,7 @@ namespace l4o8y2
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(453, 38);
+            this.label1.Location = new System.Drawing.Point(231, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 2;
@@ -65,7 +66,7 @@ namespace l4o8y2
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Fuchsia;
-            this.button3.Location = new System.Drawing.Point(379, 153);
+            this.button3.Location = new System.Drawing.Point(234, 82);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 3;
