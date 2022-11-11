@@ -13,10 +13,10 @@ namespace _7.het
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class masterEntities1 : DbContext
+    public partial class PortfolioEntities : DbContext
     {
-        public masterEntities1()
-            : base("name=masterEntities1")
+        public PortfolioEntities()
+            : base("name=PortfolioEntities")
         {
         }
     
@@ -25,122 +25,6 @@ namespace _7.het
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<C051808> C051808 { get; set; }
-        public virtual DbSet<C051808wdb> C051808wdb { get; set; }
-        public virtual DbSet<C051809wdb> C051809wdb { get; set; }
-        public virtual DbSet<C051809wofilter> C051809wofilter { get; set; }
-        public virtual DbSet<CMI6A1_TANKONYV> CMI6A1_TANKONYV { get; set; }
-        public virtual DbSet<CMI6A1_TANKÖNYV> CMI6A1_TANKÖNYV { get; set; }
-        public virtual DbSet<Course> Course { get; set; }
-        public virtual DbSet<d0h6xk_ARLISTA> d0h6xk_ARLISTA { get; set; }
-        public virtual DbSet<D0H6XK_TANKONYV> D0H6XK_TANKONYV { get; set; }
-        public virtual DbSet<dani> dani { get; set; }
-        public virtual DbSet<Day> Day { get; set; }
-        public virtual DbSet<DEF456_3> DEF456_3 { get; set; }
-        public virtual DbSet<EDEDJF_TANKONYV> EDEDJF_TANKONYV { get; set; }
-        public virtual DbSet<Employement> Employement { get; set; }
-        public virtual DbSet<ERB64N_TANKONYV> ERB64N_TANKONYV { get; set; }
-        public virtual DbSet<f9y613_arlista> f9y613_arlista { get; set; }
-        public virtual DbSet<F9Y613_TANKÖNYV> F9Y613_TANKÖNYV { get; set; }
-        public virtual DbSet<Foglalas> Foglalas { get; set; }
-        public virtual DbSet<HVDEF7_TANKONYV> HVDEF7_TANKONYV { get; set; }
-        public virtual DbSet<Instructor> Instructor { get; set; }
-        public virtual DbSet<IVTLHZ_ARLISTA> IVTLHZ_ARLISTA { get; set; }
-        public virtual DbSet<Lesson> Lesson { get; set; }
-        public virtual DbSet<n9rwd5_tankonyv> n9rwd5_tankonyv { get; set; }
-        public virtual DbSet<Nyolc> Nyolc { get; set; }
-        public virtual DbSet<nyolcorastrace> nyolcorastrace { get; set; }
-        public virtual DbSet<Order> Order { get; set; }
-        public virtual DbSet<q97yzb_TANKONYV> q97yzb_TANKONYV { get; set; }
-        public virtual DbSet<Room> Room { get; set; }
-        public virtual DbSet<ruha> ruha { get; set; }
-        public virtual DbSet<Status> Status { get; set; }
-        public virtual DbSet<Student> Student { get; set; }
-        public virtual DbSet<Szallashely> Szallashely { get; set; }
-        public virtual DbSet<Szoba> Szoba { get; set; }
-        public virtual DbSet<teszt> teszt { get; set; }
-        public virtual DbSet<tesztTrace> tesztTrace { get; set; }
-        public virtual DbSet<Textbook> Textbook { get; set; }
-        public virtual DbSet<Time> Time { get; set; }
-        public virtual DbSet<tracezh11530> tracezh11530 { get; set; }
-        public virtual DbSet<ub8ljwdvd> ub8ljwdvd { get; set; }
-        public virtual DbSet<ub8ljwstilus> ub8ljwstilus { get; set; }
-        public virtual DbSet<ub8ljwTabla2> ub8ljwTabla2 { get; set; }
-        public virtual DbSet<ub8ljwTabla3> ub8ljwTabla3 { get; set; }
-        public virtual DbSet<ub8ljwTabla4> ub8ljwTabla4 { get; set; }
-        public virtual DbSet<ub8ljwTabla5> ub8ljwTabla5 { get; set; }
-        public virtual DbSet<UJAENB_TANKONYV> UJAENB_TANKONYV { get; set; }
-        public virtual DbSet<UJAENBA_TANKONYV> UJAENBA_TANKONYV { get; set; }
-        public virtual DbSet<Untitled___4> Untitled___4 { get; set; }
-        public virtual DbSet<Untitled___5> Untitled___5 { get; set; }
-        public virtual DbSet<Untitled___7> Untitled___7 { get; set; }
-        public virtual DbSet<V0X5BZ_TANKONYV> V0X5BZ_TANKONYV { get; set; }
-        public virtual DbSet<Vendeg> Vendeg { get; set; }
-        public virtual DbSet<WC4VLV_ARLISTA> WC4VLV_ARLISTA { get; set; }
-        public virtual DbSet<YFLWUL_TANKONYV> YFLWUL_TANKONYV { get; set; }
-        public virtual DbSet<zh11340trace> zh11340trace { get; set; }
-        public virtual DbSet<zh2trace> zh2trace { get; set; }
-        public virtual DbSet<zh2wdb831> zh2wdb831 { get; set; }
-        public virtual DbSet<Alma> Alma { get; set; }
-        public virtual DbSet<Beosztasok> Beosztasok { get; set; }
-        public virtual DbSet<D0H6XK_TANAR> D0H6XK_TANAR { get; set; }
-        public virtual DbSet<DCJSOUdvd> DCJSOUdvd { get; set; }
-        public virtual DbSet<DCJSOUkolcsonzesek> DCJSOUkolcsonzesek { get; set; }
-        public virtual DbSet<DCJSOUtagok> DCJSOUtagok { get; set; }
-        public virtual DbSet<DEF456_7> DEF456_7 { get; set; }
-        public virtual DbSet<DEF456_8> DEF456_8 { get; set; }
-        public virtual DbSet<DEF456_9> DEF456_9 { get; set; }
-        public virtual DbSet<dvd_aiya4a> dvd_aiya4a { get; set; }
-        public virtual DbSet<in7sfe_beosztasok> in7sfe_beosztasok { get; set; }
-        public virtual DbSet<in7sfe_oktatok> in7sfe_oktatok { get; set; }
-        public virtual DbSet<in7sfe_statusok> in7sfe_statusok { get; set; }
-        public virtual DbSet<kolcsonzesek_aiya4a> kolcsonzesek_aiya4a { get; set; }
-        public virtual DbSet<LT99DQdvd> LT99DQdvd { get; set; }
-        public virtual DbSet<LT99DQkolcsonzesek> LT99DQkolcsonzesek { get; set; }
-        public virtual DbSet<LT99DQtagok> LT99DQtagok { get; set; }
-        public virtual DbSet<MSreplication_options> MSreplication_options { get; set; }
-        public virtual DbSet<Napok> Napok { get; set; }
-        public virtual DbSet<Orak> Orak { get; set; }
-        public virtual DbSet<ruci> ruci { get; set; }
-        public virtual DbSet<Savok> Savok { get; set; }
-        public virtual DbSet<spt_fallback_db> spt_fallback_db { get; set; }
-        public virtual DbSet<spt_fallback_dev> spt_fallback_dev { get; set; }
-        public virtual DbSet<spt_fallback_usg> spt_fallback_usg { get; set; }
-        public virtual DbSet<spt_monitor> spt_monitor { get; set; }
-        public virtual DbSet<statusok> statusok { get; set; }
-        public virtual DbSet<tagok_aiya4a> tagok_aiya4a { get; set; }
-        public virtual DbSet<Tantárgyak> Tantárgyak { get; set; }
-        public virtual DbSet<Termek> Termek { get; set; }
-        public virtual DbSet<ub8ljwkolcsonzesek> ub8ljwkolcsonzesek { get; set; }
-        public virtual DbSet<ub8ljwszemély> ub8ljwszemély { get; set; }
-        public virtual DbSet<ub8ljwTabla> ub8ljwTabla { get; set; }
-        public virtual DbSet<ub8ljwtagok> ub8ljwtagok { get; set; }
-        public virtual DbSet<UWrh74dvd> UWrh74dvd { get; set; }
-        public virtual DbSet<UWrh74kolcsonzesek> UWrh74kolcsonzesek { get; set; }
-        public virtual DbSet<UWrh74tagok> UWrh74tagok { get; set; }
-        public virtual DbSet<zh2_08_819> zh2_08_819 { get; set; }
-        public virtual DbSet<zh2_08_824> zh2_08_824 { get; set; }
-        public virtual DbSet<zh2_08_828> zh2_08_828 { get; set; }
-        public virtual DbSet<zh2_08_837> zh2_08_837 { get; set; }
-        public virtual DbSet<zh2_08_902> zh2_08_902 { get; set; }
-        public virtual DbSet<zh2_09_1000> zh2_09_1000 { get; set; }
-        public virtual DbSet<zh2_09_1006> zh2_09_1006 { get; set; }
-        public virtual DbSet<zh2_09_1027> zh2_09_1027 { get; set; }
-        public virtual DbSet<zh2_09_1041> zh2_09_1041 { get; set; }
-        public virtual DbSet<zh2_09_1046> zh2_09_1046 { get; set; }
-        public virtual DbSet<zh2_09_946> zh2_09_946 { get; set; }
-        public virtual DbSet<zh2_13_1347> zh2_13_1347 { get; set; }
-        public virtual DbSet<zh2_13_1357> zh2_13_1357 { get; set; }
-        public virtual DbSet<zh2_13_1404> zh2_13_1404 { get; set; }
-        public virtual DbSet<zh2_13_1431> zh2_13_1431 { get; set; }
-        public virtual DbSet<zh2_13_1446> zh2_13_1446 { get; set; }
-        public virtual DbSet<zh2_15_1539> zh2_15_1539 { get; set; }
-        public virtual DbSet<zh2_15_1549> zh2_15_1549 { get; set; }
-        public virtual DbSet<zh2_15_1604> zh2_15_1604 { get; set; }
-        public virtual DbSet<zh2_15_1625> zh2_15_1625 { get; set; }
-        public virtual DbSet<zh2_15_1635> zh2_15_1635 { get; set; }
-        public virtual DbSet<ZHTRACE20220323> ZHTRACE20220323 { get; set; }
-        public virtual DbSet<zhtracementés0518> zhtracementés0518 { get; set; }
-        public virtual DbSet<zhtracementés0518_wdb> zhtracementés0518_wdb { get; set; }
+        public virtual DbSet<Tick> Tick { get; set; }
     }
 }

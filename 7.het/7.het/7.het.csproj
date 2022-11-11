@@ -72,10 +72,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="PortfolioEntities.Designer.cs">
+    <Compile Include="PortfolioItem.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PortfolioEntities.edmx</DependentUpon>
+      <DependentUpon>PortfolioItem.edmx</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,12 +91,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EntityDeploy Include="PortfolioEntities.edmx">
+    <EntityDeploy Include="PortfolioItem.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PortfolioEntities.Designer.cs</LastGenOutput>
+      <LastGenOutput>PortfolioItem.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="PortfolioEntities.edmx.diagram">
-      <DependentUpon>PortfolioEntities.edmx</DependentUpon>
+    <None Include="PortfolioItem.edmx.diagram">
+      <DependentUpon>PortfolioItem.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -118,12 +118,12 @@
   <ItemGroup>
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PortfolioEntities.edmx</DependentUpon>
+      <DependentUpon>PortfolioItem.edmx</DependentUpon>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PortfolioEntities.edmx</DependentUpon>
+      <DependentUpon>PortfolioItem.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
   </ItemGroup>

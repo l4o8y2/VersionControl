@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _7.het.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,7 @@ namespace _7.het
             dataGridView1.DataSource = Ticks;
             CreatePortfolio();
         }
+        
         private void CreatePortfolio()
         {
             Portfolio.Add(new PortfolioItem() { Index = "OTP", Volume = 10 });
