@@ -23,7 +23,7 @@ namespace _7.het
             CreatePortfolio();
         }
         
-        private void CreatePortfolio()
+        public void CreatePortfolio()
         {
             Portfolio.Add(new PortfolioItem() { Index = "OTP", Volume = 10 });
             Portfolio.Add(new PortfolioItem() { Index = "ZWACK", Volume = 10 });
@@ -31,7 +31,7 @@ namespace _7.het
 
             dataGridView2.DataSource = Portfolio;
         }
-        private decimal GetPortfolioValue(DateTime date)
+        public decimal GetPortfolioValue(DateTime date)
         {
             decimal value = 0;
             foreach (var item in Portfolio)
