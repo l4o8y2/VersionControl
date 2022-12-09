@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WorldsHardestGame;
+
 
 namespace l4o8y2_10
 {
     public partial class Form1 : Form
     {
+
         GameController gc = new GameController();
         GameArea ga;
 
@@ -89,3 +90,4 @@ namespace l4o8y2_10
             gc.Start(true);
         }
     }
+}
